@@ -1,0 +1,32 @@
+<div class="b-footer">
+    <div class="b-wrapper">
+        <div class="b-footer__desk">
+            <div class="b-footer__top">
+                <a href="#" class="b-logo__footer">© Company – <span class="b-footer__year"></span></a>
+                <div class="b-menu__footer">
+                    {% for item in footer %}
+                        <a href="{{ item.link }}" class="b-footer__link">{{ item.name }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="b-footer__bottom">
+                <p class="b-footer__text">Guardarian OÜ (reg. number 14320990), whose registered office is Tornimäe tn 5, Kesklinna district, Tallinn city, Harju county, 10117. Guardarian OÜ is authorised by Estonian Financial Intelligence Unit (FVR000109) for a virtual currency against a fiat currency exchange service.</p>
+                {% include "block/_social.html" %}
+            </div>
+        </div>
+        <div class="b-footer__mobile">
+            <div class="b-footer__top">
+                {% include "block/_social.html" %}
+                <div class="b-menu__footer">
+                    {% for item in footer %}
+                        <a href="{{ item.link }}" class="b-footer__link">{{ item.name }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="b-footer__bottom">
+                <a href="#" class="b-logo__footer">© Company – <span class="b-footer__year"></span></a>
+                <p class="b-footer__text">Guardarian OÜ (reg. number 14320990), whose registered office is Tornimäe tn 5, Kesklinna district, Tallinn city, Harju county, 10117. Guardarian OÜ is authorised by Estonian Financial Intelligence Unit (FVR000109) for a virtual currency against a fiat currency exchange service.</p>
+            </div>
+        </div>
+    </div>
+</div>

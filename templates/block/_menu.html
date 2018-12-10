@@ -1,0 +1,6 @@
+<div class="b-menu">
+    {% for item in menu %}
+        <a href="{{ item.link }}" class="b-menu__link" >{{ item.name }}</a>
+    {% endfor %}
+    <a href="#" class="b-menu__link b-menu__link_sign">Sign in</a>
+</div>

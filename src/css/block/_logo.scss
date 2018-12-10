@@ -1,0 +1,13 @@
+.b-logo {
+  color: #fff;
+  font-size: 18px;
+
+  &__footer {
+    color: #000;
+    font-size: 13px;
+
+    @media all and (max-width: 767px) {
+      margin-bottom: 12px;
+    }
+  }
+}

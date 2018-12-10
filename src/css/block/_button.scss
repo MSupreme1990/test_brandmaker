@@ -1,0 +1,149 @@
+.b-button {
+  position: relative;
+  padding: 16px 24px;
+  background-color: #FF7DA0;
+  border-radius: 0;
+  font-size: 18px;
+  transition: all 0.5s ease;
+  box-sizing: border-box;
+  display: inline-block;
+
+  &:hover {
+    background: #E84672;
+  }
+
+  &:active,
+  &:focus {
+    background: #E84672;
+  }
+
+  &__blue {
+    padding: 0 16px;
+    background-color: transparent;
+    border: 2px solid #64ACFF;
+    color: #64ACFF;
+
+    &:hover {
+      background: transparent;
+      border: 2px solid #368DF2;
+      color: #368DF2;
+    }
+
+    &:active,
+    &:focus {
+      border: 2px solid #368DF2;
+      color: #368DF2;
+    }
+  }
+
+  &__pink {
+    padding: 6px 16px;
+    background-color: transparent;
+    border: 2px solid #FF7DA0;
+    color: #FF7DA0;
+
+    &:hover {
+      background: transparent;
+      border: 2px solid #E84672;
+      color: #E84672;
+    }
+
+    &:active,
+    &:focus {
+      border: 2px solid #E84672;
+      color: #E84672;
+    }
+  }
+
+  &__circle-up {
+    position: absolute;
+    bottom: -24px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #FF7DA0;
+    transition: all 0.5s ease;
+    padding: 0;
+
+    @media all and (max-width: 991px) {
+      right: 40px;
+    }
+
+    &::before {
+      content: ' ';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -70%);
+      width: 18px;
+      height: 12px;
+      background: {
+        image: url("../images/button_arrow.svg");
+        repeat: no-repeat;
+        size: contain;
+        position: 50% 50%;
+      }
+      transition: all 0.5s ease;
+    }
+
+    &:hover {
+      background: #E84672;
+    }
+
+    &:active,
+    &:focus {
+      background: #E84672;
+    }
+
+    &:hover::before {
+      transform: translate(-50%, -100%);
+    }
+  }
+
+  &__circle-down {
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #FF7DA0;
+
+    @media all and (max-width: 991px) {
+      display: none;
+    }
+
+    &::before {
+      content: ' ';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -30%);
+      width: 18px;
+      height: 12px;
+      background: {
+        image: url("../images/button_arrow2.svg");
+        repeat: no-repeat;
+        size: contain;
+        position: 50% 50%;
+      }
+      transition: all 0.5s ease;
+    }
+
+    &:hover {
+      background: #E84672;
+    }
+
+    &:active,
+    &:focus {
+      background: #E84672;
+    }
+
+    &:hover::before {
+      transform: translate(-50%, 0%);
+    }
+  }
+}

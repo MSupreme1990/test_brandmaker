@@ -1,0 +1,47 @@
+.b-social {
+  display: flex;
+
+  @media all and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+
+  &__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+    background: {
+      repeat: no-repeat;
+      position: 50% 50%;
+      size: contain;
+    }
+    
+    &:last-child {
+      margin-right: 0;
+    }
+    
+    &_facebook {
+      background-image: url("../images/social/1.svg");
+    }
+
+    &_twitter {
+      background-image: url("../images/social/2.svg");
+    }
+
+    &_em {
+      background-image: url("../images/social/3.svg");
+    }
+
+    &_btc {
+      background-image: url("../images/social/4.svg");
+    }
+
+    &_g {
+      background-image: url("../images/social/5.svg");
+    }
+
+    &_github {
+      background-image: url("../images/social/6.svg");
+    }
+  }
+}

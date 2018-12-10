@@ -1,0 +1,30 @@
+.b-menu {
+
+  @media all and (max-width: 767px) {
+    display: none;
+  }
+
+  &__link {
+    color: #fff;
+    margin-right: 32px;
+    transition: all 0.5s ease;
+
+    &:hover {
+      color: #FF7DA0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &_sign {
+      padding: 8px 12px;
+      background-color: #FF7DA0;
+
+      &:hover {
+        background-color: #E84672;
+        color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+$flexy-grid-wrapper-max-width: 1170px;
+
+//Шрифты
+$flexy-font: 'SF UI Display', sans-serif;
+$flexy-heading-font: 'SF UI Display', sans-serif;
+$flexy-grid-gutter: 16px;
+
+// Breakpoint
+$flexy-breakpoints: (
+        small: 0,
+        medium: 767px,
+        large: 992px,
+        xlarge: 1200px,
+        xxlarge: 1600px
+);

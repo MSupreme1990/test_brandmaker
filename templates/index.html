@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% include "block/_main.html" %}
+    {% include "block/_features.html" %}
+    {% include "block/_api.html" %}
+    {% include "block/_articles.html" %}
+    {% include "block/_dashboard.html" %}
+    {% include "block/_contact.html" %}
+    {% include "block/_footer.html" %}
+
+    <div class="b-ninja">
+        <div class="b-modal" id="first">
+            <img class="b-modal__img" src="/images/modal/modal_icon_1.svg" alt="">
+            <div class="b-modal__title">We are launching</div>
+            <div class="b-modal__text">
+                Станьте первым из 100 пользователей сервиса и
+                обменивайте валюту без комиссии, просто оставьте
+                свою почту
+            </div>
+            <form action="POST" class="b-modal__form">
+                <input class="b-modal__input" type="text" placeholder="Your email adress">
+                <a href="#" class="b-button b-modal__button b-modal__send">Send</a>
+            </form>
+        </div>
+        <div class="b-modal" id="success">
+            <img class="b-modal__img" src="/images/modal/modal_icon_2.svg" alt="">
+            <div class="b-modal__title">Your request has been sent</div>
+            <div class="b-modal__text">
+                Спасибо за вашу заявку, мы оповестим вас
+                о запуске первыми
+            </div>
+            <a href="#" class="b-button b-modal__button b-modal__close">Close</a>
+        </div>
+    </div>
+
+{% endblock %}

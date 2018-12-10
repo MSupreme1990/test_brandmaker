@@ -1,0 +1,184 @@
+{
+    "menu": [
+        {
+            "name": "Developers",
+            "link": "#"
+        },
+        {
+            "name": "Pricing",
+            "link": "#"
+        },
+        {
+            "name": "About",
+            "link": "#"
+        }
+    ],
+    "features": [
+        {
+            "image": "images/features/1.svg",
+            "name": "24/7 Support",
+            "text": "We’ll always take care of you whenever you need."
+        },
+        {
+            "image": "images/features/2.svg",
+            "name": "Security",
+            "text": "Your safety is our top priority."
+        },
+        {
+            "image": "images/features/3.svg",
+            "name": "Regulation compliance",
+            "text": "..."
+        },
+        {
+            "image": "images/features/4.svg",
+            "name": "Only 1% commission and no hidden fees",
+            "text": "The easiest pricing scheme for your convenience."
+        },
+        {
+            "image": "images/features/5.svg",
+            "name": "Easy integration ",
+            "text": "Our ready to use libraries will save your developers’ time."
+        },
+        {
+            "image": "images/features/6.svg",
+            "name": "API first, no redirects",
+            "text": "Make your integration feel as native as possible."
+        },
+        {
+            "image": "images/features/7.svg",
+            "name": "Regular payouts",
+            "text": "Set up once and receive your profits to your wallet automatically."
+        },
+        {
+            "image": "images/features/8.svg",
+            "name": "Settlement in BTC",
+            "text": "Accept any, settle in one. Minimize your risks."
+        }
+
+    ],
+    "live": [
+        {
+            "image": "images/live_logo/bbc_black.png",
+            "name": "BBC",
+            "desc": " Live Streaming Video",
+            "link": "#"
+        },
+        {
+            "image": "images/live_logo/CBS_logo.png",
+            "name": "CBS News",
+            "desc": "Featured Videos",
+            "link": "#"
+        },
+        {
+            "image": "images/live_logo/Cnn.png",
+            "name": "CNN",
+            "desc": "Latest News Videos",
+            "link": "#"
+        }
+    ],
+    "articles": [
+        {
+            "image": "images/articles/1.png",
+            "name": "Why accept payments in crypto",
+            "text": "Our Data Protection Officer introduces new tools to help you prepare for the GDPR."
+        },
+        {
+            "image": "images/articles/1.png",
+            "name": "Thing you can buy with crypto",
+            "text": "We’re excited to give you a peek into these brand changes and why we made them."
+        },
+        {
+            "image": "images/articles/1.png",
+            "name": "Thing you can buy with crypto",
+            "text": "Our Data Protection Officer introduces new tools to help you prepare for the GDPR."
+        }
+
+    ],
+    "care": [
+        {
+            "icon": "/images/care/support.svg",
+            "title": "24/7 support",
+            "text": "Guarda is your wallet for Bitcoin, Ethereum and other crypto.",
+            "center": ""
+        },
+        {
+            "icon": "/images/care/security.svg",
+            "title": "Security",
+            "text": "Guarda is a light wallet. All encryption is handled client-side.",
+            "center": "center"
+        },
+        {
+            "icon": "/images/care/hidden.svg",
+            "title": "No hidden fees",
+            "text": "We do not store your personal info, you do not need to register an account.",
+            "center": ""
+        }
+
+    ],
+    "social": [
+        {
+            "icon": "/images/social/t.svg",
+            "link": "http://vk.com"
+        },
+        {
+            "icon": "/images/social/f.svg",
+            "link": "http://vk.com"
+        },
+        {
+            "icon": "/images/social/b.svg",
+            "link": "http://vk.com"
+        },
+        {
+            "icon": "/images/social/g.svg",
+            "link": "http://vk.com"
+        },
+        {
+            "icon": "/images/social/c.svg",
+            "link": "http://vk.com"
+        }
+    ],
+    "social": [
+        {
+            "icon": "facebook",
+            "link": "#"
+        },
+        {
+            "icon": "twitter",
+            "link": "#"
+        },
+        {
+            "icon": "em",
+            "link": "#"
+        },
+        {
+            "icon": "btc",
+            "link": "#"
+        },
+        {
+            "icon": "g",
+            "link": "#"
+        },
+        {
+            "icon": "github",
+            "link": "#"
+        }
+    ],
+    "footer": [
+        {
+            "name": "Link",
+            "link": "#"
+        },
+        {
+            "name": "Link",
+            "link": "#"
+        },
+        {
+            "name": "Terms of Use",
+            "link": "#"
+        },
+        {
+            "name": "Privacy Policy",
+            "link": "#"
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+.b-main {
+  position: relative;
+  background-color: #13171C;
+
+
+  @media all and (max-width: 991px) {
+    overflow: hidden;
+  }
+
+  &::before {
+    display: block;
+    content: ' ';
+    background: {
+      image: url("../images/main_bg_line.svg");
+      repeat: no-repeat;
+      size: contain;
+      position: 50% 50%;
+    }
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 663px;
+    height: 586px;
+  }
+
+  &__content {
+    position: relative;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 106px;
+
+    @media all and (max-width: 767px) {
+      padding: 40px 0;
+    }
+  }
+  
+  &__heading {
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 43px;
+    width: 500px;
+
+    @media all and (max-width: 991px) {
+      width: 410px;
+    }
+
+    @media all and (max-width: 767px) {
+      margin-bottom: 80px;
+    }
+
+    @media all and (max-width: 350px) {
+      width: 100%;
+    }
+  }
+  
+  &__text {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 43px;
+    width: 400px;
+    font-weight: 600;
+
+
+    @media all and (max-width: 570px) {
+      width: 178px;
+    }
+  }
+
+  &__pic {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    @media all and (max-width: 767px) {
+      right: -200px;
+      bottom: -20px;
+    }
+
+    @media all and (max-width: 350px) {
+      right: -260px;
+      bottom: -20px;
+    }
+
+    &_desc {
+      display: block;
+
+      @media all and (max-width: 1280px) {
+        display: none;
+      }
+    }
+
+    &_mobile {
+      display: none;
+
+      @media all and (max-width: 1280px) {
+        display: block;
+      }
+    }
+  }
+
+  &__button {
+    width: 128px;
+    height: 46px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
