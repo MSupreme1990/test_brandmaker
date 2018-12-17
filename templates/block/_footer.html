@@ -1,31 +1,19 @@
 <div class="b-footer">
     <div class="b-wrapper">
-        <div class="b-footer__desk">
-            <div class="b-footer__top">
-                <a href="#" class="b-logo__footer">© Company – <span class="b-footer__year"></span></a>
-                <div class="b-menu__footer">
-                    {% for item in footer %}
-                        <a href="{{ item.link }}" class="b-footer__link">{{ item.name }}</a>
-                    {% endfor %}
-                </div>
+        <div class="b-footer__top">
+            <div class="b-footer__block">
+                <a href="#" class="b-logo b-logo__footer">
+                    Мебель-
+                    <span class="b-logo__pro b-logo__pro_black">PRO43</span>
+                </a>
+                <span>/</span>
+                <p class="b-footer__text">От производителя в Кирове</p>
             </div>
-            <div class="b-footer__bottom">
-                <p class="b-footer__text">Guardarian OÜ (reg. number 14320990), whose registered office is Tornimäe tn 5, Kesklinna district, Tallinn city, Harju county, 10117. Guardarian OÜ is authorised by Estonian Financial Intelligence Unit (FVR000109) for a virtual currency against a fiat currency exchange service.</p>
-                {% include "block/_social.html" %}
-            </div>
-        </div>
-        <div class="b-footer__mobile">
-            <div class="b-footer__top">
-                {% include "block/_social.html" %}
-                <div class="b-menu__footer">
-                    {% for item in footer %}
-                        <a href="{{ item.link }}" class="b-footer__link">{{ item.name }}</a>
-                    {% endfor %}
-                </div>
-            </div>
-            <div class="b-footer__bottom">
-                <a href="#" class="b-logo__footer">© Company – <span class="b-footer__year"></span></a>
-                <p class="b-footer__text">Guardarian OÜ (reg. number 14320990), whose registered office is Tornimäe tn 5, Kesklinna district, Tallinn city, Harju county, 10117. Guardarian OÜ is authorised by Estonian Financial Intelligence Unit (FVR000109) for a virtual currency against a fiat currency exchange service.</p>
+            <div class="b-footer__block">
+                <a class="b-header__telephone b-header__telephone_black" href="tel:+78332264705">
+                    +7(8332) <span class="b-footer_black">26-47-05</span>
+                </a>
+                <a class="b-button b-button_black" href="#">Заказать звонок</a>
             </div>
         </div>
     </div>

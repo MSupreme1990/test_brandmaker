@@ -1,0 +1,78 @@
+.b-banner {
+  position: relative;
+  min-height: 285px;
+
+  &::before {
+    content: ' ';
+    position: absolute;
+    top: 54px;
+    left:0;
+    background: {
+      image: url("../images/banner_pic.png");
+      position: 50% 50%;
+      repeat: no-repeat;
+      size: contain;
+    }
+    width: 248px;
+    height: 56px;
+    z-index: 2;
+  }
+
+  &__bg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: {
+      image: url("../images/banner_bg1920.png");
+      position: 50% 50%;
+      repeat: no-repeat;
+      size: cover;
+    }
+    height: 285px;
+    width: 100%;
+    z-index: 0;
+  }
+
+  &__content {
+    position: relative;
+  }
+
+  &__heading {
+    position: relative;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 32px;
+
+    &::after {
+      content: ' ';
+      background: {
+        image: url("../images/banner_arrow.png");
+        position: 50% 50%;
+        repeat: no-repeat;
+        size: contain;
+      }
+      width: 59px;
+      height: 77px;
+      position: absolute;
+      top: 50px;
+      right: -25px;
+    }
+  }
+  
+  &__text {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  &__top {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+  }
+
+  &__block {
+    margin-top: 60px;
+  }
+}

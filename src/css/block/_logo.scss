@@ -1,13 +1,25 @@
 .b-logo {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 200;
   color: #fff;
-  font-size: 18px;
+  font-size: 24px;
+  margin-right: 32px;
+
+  &__pro {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+
+    &_yellow {
+      color: #ffeb10;
+    }
+
+    &_black {
+      color: #000;
+    }
+  }
 
   &__footer {
     color: #000;
-    font-size: 13px;
-
-    @media all and (max-width: 767px) {
-      margin-bottom: 12px;
-    }
+    margin-right: 16px;
   }
 }

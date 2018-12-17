@@ -1,0 +1,10 @@
+{% for item in why %}
+    <div class="b-block-grid__item">
+        <div class="b-why">
+            <div class="b-why__img">
+                <img src="{{ item.image }}" class="b-why__image" alt="">
+            </div>
+            <div class="b-why__title">{{ item.title }}</div>
+        </div>
+    </div>
+{% endfor %}

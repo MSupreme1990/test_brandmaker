@@ -1,47 +1,29 @@
 .b-social {
   display: flex;
 
-  @media all and (max-width: 767px) {
-    margin-bottom: 30px;
+  &__link {
+    display: flex;
+    align-items: center;
   }
 
-  &__link {
-    display: block;
-    width: 36px;
-    height: 36px;
+  &__img {
     margin-right: 8px;
-    background: {
-      repeat: no-repeat;
-      position: 50% 50%;
-      size: contain;
-    }
-    
-    &:last-child {
-      margin-right: 0;
-    }
-    
-    &_facebook {
-      background-image: url("../images/social/1.svg");
-    }
+    width: 37px;
+    height: 37px;
 
-    &_twitter {
-      background-image: url("../images/social/2.svg");
-    }
+    &_vk {
+      background: {
+        image: url("../images/vk.png");
+        position: 50% 50%;
+        size: cover;
+        repeat: no-repeat;
+      }
 
-    &_em {
-      background-image: url("../images/social/3.svg");
     }
+  }
 
-    &_btc {
-      background-image: url("../images/social/4.svg");
-    }
-
-    &_g {
-      background-image: url("../images/social/5.svg");
-    }
-
-    &_github {
-      background-image: url("../images/social/6.svg");
-    }
+  &__text {
+    color: #000;
+    text-decoration: underline;
   }
 }

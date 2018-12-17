@@ -1,0 +1,42 @@
+.b-problems {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 100px 0;
+
+  &__block {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  &__img {
+    position: relative;
+    margin-right: 10px;
+
+    &_right {
+      &::before {
+        content: ' ';
+        position: absolute;
+        top: 50%;
+        left: -50px;
+        background: {
+          image: url("../images/features/problems/arrow.png");
+          position: 50% 50%;
+          size: contain;
+          repeat: no-repeat;
+        }
+        transform: translateY(-50%);
+        width: 17px;
+        height: 26px;
+      }
+    }
+  }
+
+  &__text {
+    width: 380px;
+
+    &_small {
+      width: 260px;
+    }
+  }
+}

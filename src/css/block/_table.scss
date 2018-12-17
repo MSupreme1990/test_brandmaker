@@ -1,0 +1,25 @@
+.b-table {
+  padding: 0 32px;
+  margin: 0;
+
+
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 16px 0;
+  }
+
+  &__char {
+    width: 40%;
+    overflow: hidden;
+    color: #7e7e7e;
+  }
+
+  &__info {
+    width: 60%;
+    overflow: hidden;
+    color: #000;
+  }
+
+}

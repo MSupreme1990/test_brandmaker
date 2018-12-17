@@ -1,184 +1,214 @@
 {
-    "menu": [
+    "main": [
         {
-            "name": "Developers",
-            "link": "#"
+            "icon": "first",
+            "text": "Гарантия 36 месяцев"
         },
         {
-            "name": "Pricing",
-            "link": "#"
-        },
-        {
-            "name": "About",
-            "link": "#"
+            "icon": "second",
+            "text": "Любые цвета и размеры"
         }
     ],
-    "features": [
+    "why": [
         {
-            "image": "images/features/1.svg",
-            "name": "24/7 Support",
-            "text": "We’ll always take care of you whenever you need."
+            "image": "images/features/why/1.png",
+            "title": "Европейское качество"
         },
         {
-            "image": "images/features/2.svg",
-            "name": "Security",
-            "text": "Your safety is our top priority."
+            "image": "images/features/why/2.png",
+            "title": "Гарантия 36 месяцев"
         },
         {
-            "image": "images/features/3.svg",
-            "name": "Regulation compliance",
-            "text": "..."
+            "image": "images/features/why/3.png",
+            "title": "Бесплатная доставка по Кирову"
         },
         {
-            "image": "images/features/4.svg",
-            "name": "Only 1% commission and no hidden fees",
-            "text": "The easiest pricing scheme for your convenience."
+            "image": "images/features/why/4.png",
+            "title": "Бесплатная установка и монтаж"
         },
         {
-            "image": "images/features/5.svg",
-            "name": "Easy integration ",
-            "text": "Our ready to use libraries will save your developers’ time."
-        },
-        {
-            "image": "images/features/6.svg",
-            "name": "API first, no redirects",
-            "text": "Make your integration feel as native as possible."
-        },
-        {
-            "image": "images/features/7.svg",
-            "name": "Regular payouts",
-            "text": "Set up once and receive your profits to your wallet automatically."
-        },
-        {
-            "image": "images/features/8.svg",
-            "name": "Settlement in BTC",
-            "text": "Accept any, settle in one. Minimize your risks."
-        }
-
-    ],
-    "live": [
-        {
-            "image": "images/live_logo/bbc_black.png",
-            "name": "BBC",
-            "desc": " Live Streaming Video",
-            "link": "#"
-        },
-        {
-            "image": "images/live_logo/CBS_logo.png",
-            "name": "CBS News",
-            "desc": "Featured Videos",
-            "link": "#"
-        },
-        {
-            "image": "images/live_logo/Cnn.png",
-            "name": "CNN",
-            "desc": "Latest News Videos",
-            "link": "#"
+            "image": "images/features/why/5.png",
+            "title": "Монтаж без пыли"
         }
     ],
-    "articles": [
+    "other": [
         {
-            "image": "images/articles/1.png",
-            "name": "Why accept payments in crypto",
-            "text": "Our Data Protection Officer introduces new tools to help you prepare for the GDPR."
+            "title": "Стенки"
         },
         {
-            "image": "images/articles/1.png",
-            "name": "Thing you can buy with crypto",
-            "text": "We’re excited to give you a peek into these brand changes and why we made them."
+            "title": "Кухни"
         },
         {
-            "image": "images/articles/1.png",
-            "name": "Thing you can buy with crypto",
-            "text": "Our Data Protection Officer introduces new tools to help you prepare for the GDPR."
-        }
-
-    ],
-    "care": [
-        {
-            "icon": "/images/care/support.svg",
-            "title": "24/7 support",
-            "text": "Guarda is your wallet for Bitcoin, Ethereum and other crypto.",
-            "center": ""
+            "title": "Комоды"
         },
         {
-            "icon": "/images/care/security.svg",
-            "title": "Security",
-            "text": "Guarda is a light wallet. All encryption is handled client-side.",
-            "center": "center"
+            "title": "Кровати"
         },
         {
-            "icon": "/images/care/hidden.svg",
-            "title": "No hidden fees",
-            "text": "We do not store your personal info, you do not need to register an account.",
-            "center": ""
-        }
-
-    ],
-    "social": [
-        {
-            "icon": "/images/social/t.svg",
-            "link": "http://vk.com"
+            "title": "Прихожие"
         },
         {
-            "icon": "/images/social/f.svg",
-            "link": "http://vk.com"
-        },
-        {
-            "icon": "/images/social/b.svg",
-            "link": "http://vk.com"
-        },
-        {
-            "icon": "/images/social/g.svg",
-            "link": "http://vk.com"
-        },
-        {
-            "icon": "/images/social/c.svg",
-            "link": "http://vk.com"
+            "title": "Офисную и другую мебель"
         }
     ],
-    "social": [
+    "problems": [
         {
-            "icon": "facebook",
-            "link": "#"
+            "icon1": "images/features/problems/1.png",
+            "icon2": "images/features/problems/2.png",
+            "problem": "Вы не знаете, чего хотите, и вам не помогают в выборе",
+            "answer": "Наш опытный замерщик предложит наиболее подходящий вариант в соответствии с вашими требованиями"
         },
         {
-            "icon": "twitter",
-            "link": "#"
+            "icon1": "images/features/problems/3.png",
+            "icon2": "images/features/problems/4.png",
+            "problem": "Боитесь, что цена будет высокой",
+            "answer": "В нашей схеме работы исключены издержки по содержанию мебельного салона и зарплат продавцов — это позволяет нам держать цену ниже, чем в мебельных магазинах"
         },
         {
-            "icon": "em",
-            "link": "#"
+            "icon1": "images/features/problems/5.png",
+            "icon2": "images/features/problems/6.png",
+            "problem": "Боитесь, что шкаф будет сделан некачественнно",
+            "answer": "Европейское качество шкафов обеспечивается постоянным контролем всех технологических процессов. Мы используем только качественные материалы: ЛДСП, МДФ, зеркала и стекла, фурнитуры, механизмы раздвижных дверей"
         },
         {
-            "icon": "btc",
-            "link": "#"
+            "icon1": "images/features/problems/7.png",
+            "icon2": "images/features/problems/8.png",
+            "problem": "Приходится дополнительно доплачивать за замеры и доставку",
+            "answer": "Замер и доставка абсолютно бесплатно"
         },
         {
-            "icon": "g",
-            "link": "#"
-        },
-        {
-            "icon": "github",
-            "link": "#"
+            "icon1": "images/features/problems/9.png",
+            "icon2": "images/features/problems/10.png",
+            "problem": "Хочется посмотреть, выбрать и пощупать в живую",
+            "answer": "Наш замерщик привезет для вас на замер большое количество образцов материалов, чтобы вы могли оценить их реальные цвета, фактуру и качество"
         }
     ],
-    "footer": [
+    "catalog" : [
         {
-            "name": "Link",
-            "link": "#"
+            "id": "one",
+            "image": "images/catalog/1.png",
+            "image_big": "images/catalog/big/1.png",
+            "title": "Шкаф-купе",
+            "price": "от 12 000 руб",
+            "special": "от 10 200 для новоселов",
+            "model": "Модель 1111",
+            "material": "ЛДСП",
+            "height": "2.5 м",
+            "width": "2.7 м",
+            "depth": "60 см",
+            "body": "ЛДСП, Бежевый песок"
         },
         {
-            "name": "Link",
-            "link": "#"
+            "id": "two",
+            "image": "images/catalog/2.png",
+            "image_big": "images/catalog/big/1.png",
+            "title": "Шкаф-купе",
+            "price": "от 12 000 руб",
+            "special": "от 10 200 для новоселов",
+            "model": "Модель 2222",
+            "material": "ЛДСП",
+            "height": "2.5 м",
+            "width": "2.7 м",
+            "depth": "60 см",
+            "body": "ЛДСП, Бежевый песок"
         },
         {
-            "name": "Terms of Use",
-            "link": "#"
+            "id": "three",
+            "image": "images/catalog/3.png",
+            "image_big": "images/catalog/big/1.png",
+            "title": "Шкаф-купе",
+            "price": "от 12 000 руб",
+            "special": "от 10 200 для новоселов",
+            "model": "Модель 3333",
+            "material": "ЛДСП",
+            "height": "2.5 м",
+            "width": "2.7 м",
+            "depth": "60 см",
+            "body": "ЛДСП, Бежевый песок"
         },
         {
-            "name": "Privacy Policy",
-            "link": "#"
+            "id": "four",
+            "image": "images/catalog/4.png",
+            "image_big": "images/catalog/big/1.png",
+            "title": "Шкаф-купе",
+            "price": "от 12 000 руб",
+            "special": "от 10 200 для новоселов",
+            "model": "Модель 4444",
+            "material": "ЛДСП",
+            "height": "2.5 м",
+            "width": "2.7 м",
+            "depth": "60 см",
+            "body": "ЛДСП, Бежевый песок"
+        },
+        {
+            "id": "five",
+            "image": "images/catalog/5.png",
+            "image_big": "images/catalog/big/1.png",
+            "title": "Шкаф-купе",
+            "price": "от 12 000 руб",
+            "special": "от 10 200 для новоселов",
+            "model": "Модель 5555",
+            "material": "ЛДСП",
+            "height": "2.5 м",
+            "width": "2.7 м",
+            "depth": "60 см",
+            "body": "ЛДСП, Бежевый песок"
+        },
+        {
+            "id": "six",
+            "image": "images/catalog/6.png",
+            "image_big": "images/catalog/big/1.png",
+            "title": "Шкаф-купе",
+            "price": "от 12 000 руб",
+            "special": "от 10 200 для новоселов",
+            "model": "Модель 6666",
+            "material": "ЛДСП",
+            "height": "2.5 м",
+            "width": "2.7 м",
+            "depth": "60 см",
+            "body": "ЛДСП, Бежевый песок"
+        },
+        {
+            "id": "seven",
+            "image": "images/catalog/7.png",
+            "image_big": "images/catalog/big/1.png",
+            "title": "Шкаф-купе",
+            "price": "от 12 000 руб",
+            "special": "от 10 200 для новоселов",
+            "model": "Модель 7777",
+            "material": "ЛДСП",
+            "height": "2.5 м",
+            "width": "2.7 м",
+            "depth": "60 см",
+            "body": "ЛДСП, Бежевый песок"
+        },
+        {
+            "id": "eight",
+            "image": "images/catalog/8.png",
+            "image_big": "images/catalog/big/1.png",
+            "title": "Шкаф-купе",
+            "price": "от 12 000 руб",
+            "special": "от 10 200 для новоселов",
+            "model": "Модель 8888",
+            "material": "ЛДСП",
+            "height": "2.5 м",
+            "width": "2.7 м",
+            "depth": "60 см",
+            "body": "ЛДСП, Бежевый песок"
+        },
+        {
+            "id": "nine",
+            "image": "images/catalog/10.png",
+            "image_big": "images/catalog/big/1.png",
+            "title": "Шкаф-купе",
+            "price": "от 12 000 руб",
+            "special": "от 10 200 для новоселов",
+            "model": "Модель 9999",
+            "material": "ЛДСП",
+            "height": "2.5 м",
+            "width": "2.7 м",
+            "depth": "60 см",
+            "body": "ЛДСП, Бежевый песок"
         }
     ]
 }

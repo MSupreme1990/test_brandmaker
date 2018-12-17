@@ -1,38 +1,110 @@
 {% extends "base.html" %}
 
 {% block content %}
+    {% include "block/_header.html" %}
 
-    {% include "block/_main.html" %}
-    {% include "block/_features.html" %}
-    {% include "block/_api.html" %}
-    {% include "block/_articles.html" %}
-    {% include "block/_dashboard.html" %}
-    {% include "block/_contact.html" %}
-    {% include "block/_footer.html" %}
+    <div class="b-over">
+        {% include "block/_main.html" %}
+        {% include "block/_catalog.html" %}
+        {% include "block/_banner.html" %}
+        {% include "block/_features.html" %}
+        {% include "block/_banner.html" %}
+        {% include "block/_scheme.html" %}
+        {% include "block/_reviews.html" %}
+        {% include "block/_question.html" %}
+        {% include "block/_map.html" %}
+        {% include "block/_footer.html" %}
+        {% include "block/_bottom.html" %}
+    </div>
+
 
     <div class="b-ninja">
-        <div class="b-modal" id="first">
-            <img class="b-modal__img" src="/images/modal/modal_icon_1.svg" alt="">
-            <div class="b-modal__title">We are launching</div>
-            <div class="b-modal__text">
-                Станьте первым из 100 пользователей сервиса и
-                обменивайте валюту без комиссии, просто оставьте
-                свою почту
+        {% for item in catalog %}
+        <div class="b-modal" id="{{ item.id }}">
+            <div class="b-modal__block b-modal__block_color">
+                <div class="b-modal__img">
+                    <img src="{{ item.image_big }}" class="b-modal__image" alt="">
+                </div>
+                <div class="b-modal__features">
+                    <div class="b-block-grid b-block-grid_small_1 b-block-grid_medium_2 b-block-grid_large_2">
+                        <div class="b-block-grid__item">
+                            <div class="b-modal__feature">
+                                <div class="b-modal__icons">
+                                    <img src="images/modal/icon/1.png" class="b-modal__icon" alt="">
+                                </div>
+                                <div class="b-modal__text">Рассрочка 12 месяцев</div>
+                            </div>
+                        </div>
+                        <div class="b-block-grid__item">
+                            <div class="b-modal__feature">
+                                <div class="b-modal__icons">
+                                    <img src="images/modal/icon/2.png" class="b-modal__icon" alt="">
+                                </div>
+                                <div class="b-modal__text">Бесплатная установка и монтаж</div>
+                            </div>
+                        </div>
+                        <div class="b-block-grid__item">
+                            <div class="b-modal__feature">
+                                <div class="b-modal__icons">
+                                    <img src="images/modal/icon/3.png" class="b-modal__icon" alt="">
+                                </div>
+                                <div class="b-modal__text">Бесплатная доставка по Кирову</div>
+                            </div>
+                        </div>
+                        <div class="b-block-grid__item">
+                            <div class="b-modal__feature">
+                                <div class="b-modal__icons">
+                                    <img src="images/modal/icon/4.png" class="b-modal__icon" alt="">
+                                </div>
+                                <div class="b-modal__text">Скидка 15 % при заказе сейчас</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <form action="POST" class="b-modal__form">
-                <input class="b-modal__input" type="text" placeholder="Your email adress">
-                <a href="#" class="b-button b-modal__button b-modal__send">Send</a>
-            </form>
-        </div>
-        <div class="b-modal" id="success">
-            <img class="b-modal__img" src="/images/modal/modal_icon_2.svg" alt="">
-            <div class="b-modal__title">Your request has been sent</div>
-            <div class="b-modal__text">
-                Спасибо за вашу заявку, мы оповестим вас
-                о запуске первыми
+            <div class="b-modal__block">
+                <div class="b-modal__top">
+                    <p class="b-modal__name">{{ item.model }}</p>
+                </div>
+                <div class="b-table">
+                    <div class="b-table__row">
+                        <div class="b-table__char">Материал корпуса</div>
+                        <div class="b-table__info">{{ item.material }}</div>
+                    </div>
+                    <div class="b-table__row">
+                        <div class="b-table__char">Высота</div>
+                        <div class="b-table__info">{{ item.height }}</div>
+                    </div>
+                    <div class="b-table__row">
+                        <div class="b-table__char">Ширина</div>
+                        <div class="b-table__info">{{ item.width }}</div>
+                    </div>
+                    <div class="b-table__row">
+                        <div class="b-table__char">Глубина</div>
+                        <div class="b-table__info">{{ item.depth }}</div>
+                    </div>
+                    <div class="b-table__row">
+                        <div class="b-table__char">Корпус</div>
+                        <div class="b-table__info">{{ item.body }}</div>
+                    </div>
+                </div>
+                <div class="b-modal__price">
+                    Стоимость шкафа: <span class="b-modal_black">{{ item.price }}</span>
+                </div>
+                <div class="b-modal__form">
+                    <h3 class="b-modal__heading">Узнайте, как сделать такой же шкаф <strong>дешевле на 10%</strong></h3>
+                    <form action="POST" class="b-form b-form__modal">
+                        <input type="text" name="name" class="b-input b-form__input" placeholder="Введите ваш телефон">
+                        <a href="#" class="b-button__big b-button__big_default">Получить скидку 15%</a>
+                    </form>
+                    <p class="b-modal__politics">
+                        Передавая информацию сайту вы принимаете условия
+                        <a href="#">Политики защиты персональной информации</a>
+                    </p>
+                </div>
             </div>
-            <a href="#" class="b-button b-modal__button b-modal__close">Close</a>
         </div>
+        {% endfor %}
     </div>
 
 {% endblock %}

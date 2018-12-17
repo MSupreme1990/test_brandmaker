@@ -1,0 +1,16 @@
+{% for item in problems %}
+    <div class="b-problems">
+        <div class="b-problems__block">
+            <div class="b-problems__img">
+                <img src="{{ item.icon1 }}" class="b-problems__image" alt="">
+            </div>
+            <div class="b-problems__text_small">{{ item.problem }}</div>
+        </div>
+        <div class="b-problems__block">
+            <div class="b-problems__img b-problems__img_right">
+                <img src="{{ item.icon2 }}" class="b-problems__image" alt="">
+            </div>
+            <div class="b-problems__text">{{ item.answer }}</div>
+        </div>
+    </div>
+{% endfor %}

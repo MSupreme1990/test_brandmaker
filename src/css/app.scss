@@ -2,14 +2,13 @@
 @import "~flexy-framework/src/defaults";
 @import "~flexy-framework/src/flexy";
 
-@import "vendor/slick";
-@import "vendor/slick-theme";
 @import "vendor/magnific-popup";
 
 @import "global";
 
 @import "font/roboto";
-@import "font/sfuidisplay";
+@import "font/robotoslab";
+@import "font/ubuntu";
 
 @import "block/ninja";
 @import "block/body";
@@ -18,11 +17,28 @@
 @import "block/top";
 @import "block/logo";
 @import "block/header";
-@import "block/menu";
-@import "block/menu-mobile";
 @import "block/footer";
 @import "block/social";
 @import "block/modal";
+@import "block/timer";
+@import "block/bottom";
+@import "block/over";
+@import "block/input";
+@import "block/form";
+@import "block/filter";
+@import "block/table";
 
 @import "block/main";
+@import "block/catalog";
+@import "block/banner";
+@import "block/features";
+@import "block/why";
+@import "block/other";
+@import "block/problems";
+@import "block/scheme";
+@import "block/reviews";
+@import "block/question";
+@import "block/map";
+
+
 

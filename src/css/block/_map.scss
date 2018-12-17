@@ -1,0 +1,33 @@
+.b-map {
+  position: relative;
+
+  &__block {
+    position: absolute;
+    padding: 32px;
+    top: 25%;
+    right: 25%;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 5;
+  }
+
+  &__heading {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  &__text {
+    font-weight: 200;
+  }
+  
+  &__tel {
+    font-weight: 200;
+    color: #000;
+  }
+
+  &__link {
+    color: #000;
+  }
+
+}

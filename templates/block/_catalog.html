@@ -1,0 +1,27 @@
+<div class="b-catalog">
+    <div class="b-wrapper">
+        <h2 class="b-heading">Популярные шкафы</h2>
+        {% include "block/_filter.html" %}
+        <div class="b-catalog__content">
+			<div class="b-block-grid b-block-grid_small_1 b-block-grid_medium_2 b-block-grid_large_3">
+                {% for item in catalog %}
+					<div class="b-block-grid__item">
+						<div class="b-catalog__cart">
+							<a href="{{ item.image }}" class="b-catalog__img">
+								<img src="{{ item.image }}" class="b-catalog__image" alt="">
+							</a>
+							<div class="b-catalog__info">
+								<div class="b-catalog__title">{{ item.title }}</div>
+								<div class="b-catalog__price">{{ item.price }}</div>
+								<div class="b-catalog__special">{{ item.special }}</div>
+							</div>
+							<a href="#{{ item.id }}" class="b-button b-catalog__button" data-modal>Рассчитать стоимость</a>
+						</div>
+					</div>
+                {% endfor %}
+				</div>
+			</div>
+
+        </div>
+    </div>
+</div>

@@ -1,7 +1,41 @@
 .b-header {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 40px;
+  background-color: #281001;
+  z-index: 1;
+
+  &__content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+  }
+
+  &__block {
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-weight: 100;
+    color: #fff;
+  }
+  
+  &__telephone {
+    font-size: 24px;
+    margin-right: 55px;
+
+    &_white {
+      color: #fff;
+    }
+    
+    &_black {
+      color: #000;
+    }
+  }
+
+  &_yellow {
+    color: #ffeb10;
+  }
 }
